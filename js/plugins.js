@@ -3728,9 +3728,9 @@ e(this):c.doc,k=new N(c,e(this)),e(this).data("__nicescroll",k));h.push(k)});ret
 
 
 function initMap() {
-
+    // 43.704866567854026, -79.4084187647007
     var map = new google.maps.Map(document.getElementById('ieatmaps'), {
-      center: {lat: 34.0937458, lng: -118.3614978},
+      center: {lat: 43.704866567854026, lng: -79.4084187647007},
       zoom: 12,
       styles: [
     {
@@ -3902,7 +3902,7 @@ function initMap() {
     });
 
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(34.0937458, -118.3614978)
+        position: new google.maps.LatLng(43.704866567854026, -79.4084187647007)
         , title: 'ASL'
         , map : map
 

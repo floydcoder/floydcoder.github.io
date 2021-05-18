@@ -469,7 +469,7 @@ h6 { font-size: 16px; }
 	list-style-type: none;
 }
 .tokyo_tm_home .social ul li{
-	margin: 0px 12px 0px 0px;
+	margin: 0px 25px 0px 0px;
 	display: inline-block;
 }
 .tokyo_tm_home .social ul li:last-child{
@@ -489,8 +489,8 @@ h6 { font-size: 16px; }
 	color: #000;
 }
 .tokyo_tm_home .social ul li .svg{
-	width: 17px;
-	height: 17px;
+	width: 30px;
+	height: 30px;
 }
 
 /*---------------------------------------------------*/
@@ -505,7 +505,7 @@ h6 { font-size: 16px; }
 	padding: 100px 0px 100px 0px;
 }
 .tokyo_tm_about .about_image{
-	width: 100%;
+	width: 75%;
 	height: auto;
 	clear: both;
 	float: left;
@@ -526,7 +526,7 @@ h6 { font-size: 16px; }
 	justify-content: space-between;
 }
 .tokyo_tm_about .description .left{
-	width: 55%;
+	width: 85%;
 	padding-right: 50px;
 }
 .tokyo_tm_about .description .left p{
@@ -537,9 +537,11 @@ h6 { font-size: 16px; }
 	font-weight: 700;
 	font-size: 22px;
 	margin-bottom: 26px;
+
+
 }
 .tokyo_tm_about .description .right{
-	width: 45%;
+	width: 20%;
 	padding-left: 50px;
 }
 .tokyo_tm_about .description .right > ul{
@@ -901,7 +903,7 @@ h6 { font-size: 16px; }
 	right: 0px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -910,7 +912,7 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .tokyo_tm_portfolio .portfolio_list li .inner:hover .main_image{
-	transform: scale(1.1) translateZ(0);
+	transform: scale(2.1) translateZ(0);
 }
 .tokyo_tm_portfolio_titles {
 	white-space: nowrap;
