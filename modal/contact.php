@@ -8,11 +8,8 @@ $php_name = $_POST['ajax_name'];
 $php_email = $_POST['ajax_email'];
 $php_message = $_POST['ajax_message'];
 
-
-
 //Sanitizing email
 $php_email = filter_var($php_email, FILTER_SANITIZE_EMAIL);
-
 
 //After sanitization Validation is performed
 if (filter_var($php_email, FILTER_VALIDATE_EMAIL)) {

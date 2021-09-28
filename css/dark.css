@@ -84,10 +84,10 @@ body.dark .tokyo_tm_all_wrap .leftpart .copyright a:hover{
 	color: #fff;
 }
 body.dark .tokyo_tm_all_wrap .rightpart{
-	background-color: #111;
+	background-color: rgb(0, 0, 0);
 }
 body.dark .tokyo_tm_all_wrap .rightpart_in{
-	border-left-color: #202020;
+	border-left-color: #000000;
 }
 body.dark .tokyo_tm_home .social ul li .svg{
 	color: #fff;

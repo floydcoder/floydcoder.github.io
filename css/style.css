@@ -503,6 +503,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	padding: 100px 0px 100px 0px;
+
 }
 .tokyo_tm_about .about_image{
 	width: 75%;
@@ -510,6 +511,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	margin-bottom: 48px;
+	margin-left: 2rem;
 }
 .tokyo_tm_about .about_image img{
 	min-width: 100%;
@@ -537,8 +539,8 @@ h6 { font-size: 16px; }
 	font-weight: 700;
 	font-size: 22px;
 	margin-bottom: 26px;
-
-
+	margin-left: 18rem;
+	
 }
 .tokyo_tm_about .description .right{
 	width: 20%;
@@ -813,6 +815,7 @@ h6 { font-size: 16px; }
 .tokyo_tm_title h3{
 	font-weight: 800;
 	font-family: "Montserrat";
+	margin-right: 2rem;
 } 
 .tokyo_tm_title span{
 	display: inline-block;
@@ -912,7 +915,7 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .tokyo_tm_portfolio .portfolio_list li .inner:hover .main_image{
-	transform: scale(2.1) translateZ(0);
+	transform: scale(1.1) translateZ(0);
 }
 .tokyo_tm_portfolio_titles {
 	white-space: nowrap;
