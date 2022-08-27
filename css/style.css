@@ -1042,7 +1042,7 @@ h6 {
   left: 0px;
   right: 0px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:auto;
   background-position: center;
 
   -webkit-transition: all 0.3s ease;
@@ -1058,7 +1058,7 @@ h6 {
   width: 100%;
   float: left;
   padding-right: 15px;
-  padding-top: 32px;
+  /* padding-top: 32px; */
 }
 .tokyo_tm_news ul li .details .title {
   margin-bottom: 10px;
@@ -1208,7 +1208,7 @@ h6 {
   margin-bottom: 40px;
 }
 .tokyo_tm_modalbox_news .description_wrap .image img {
-  min-width: 100%;
+  min-width: 40%;
 }
 .tokyo_tm_modalbox_news .description_wrap .image .main {
   position: absolute;
@@ -1287,6 +1287,15 @@ body.modal {
 }
 .tokyo_tm_modalbox_news .main_content .descriptions p {
   margin-bottom: 22px;
+}
+.tokyo_tm_modalbox_news .main_content .descriptions ul{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 22px;
+}
+.tokyo_tm_modalbox_news .main_content .descriptions ul li{
+  color: black;
+  font-weight: bold;
 }
 .tokyo_tm_modalbox_news .main_content .quotebox {
   width: 100%;
@@ -1422,6 +1431,14 @@ body.modal {
   margin-bottom: 7px;
   text-align: left;
   font-weight: 500;
+}
+.tokyo_tm_contact .social ul li{
+  margin: 0px 25px 0px 0px;
+  display: inline-block;
+}
+.tokyo_tm_contact .social ul li .svg {
+  width: 30px;
+  height: 30px;
 }
 
 /*---------------------------------------------------*/
