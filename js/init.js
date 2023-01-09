@@ -480,7 +480,7 @@ function tokyo_tm_contact_form() {
     } else {
       // Returns successful data submission message when the entered information is stored in database.
       jQuery.post(
-        'modal/contact.php',
+        '../modal/contact.php',
         {
           ajax_name: name,
           ajax_email: email,
