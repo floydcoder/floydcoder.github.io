@@ -1,15 +1,18 @@
 <?php
 
 // Put contacting email here
-$php_main_email = "marcostevanella.canada@gmail.com";
+$php_main_email = "itmarcostevanella@gmail.com";
 
 //Fetching Values from URL
 $php_name = $_POST['ajax_name'];
 $php_email = $_POST['ajax_email'];
 $php_message = $_POST['ajax_message'];
 
+
+
 //Sanitizing email
 $php_email = filter_var($php_email, FILTER_SANITIZE_EMAIL);
+
 
 //After sanitization Validation is performed
 if (filter_var($php_email, FILTER_VALIDATE_EMAIL)) {
@@ -19,8 +22,7 @@ if (filter_var($php_email, FILTER_VALIDATE_EMAIL)) {
 		
 		// To send HTML mail, the Content-type header must be set
 		$php_headers = 'MIME-Version: 1.0' . "\r\n";
-		$php_headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-		$php_headers .= 'Content-type: multipart/form-data; boundary=---------------------------974767299852498929531610575-----------------------------974767299852498929531610575' . "\r\n";
+		$php_headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		$php_headers .= 'From:' . $php_email. "\r\n"; // Sender's Email
 		$php_headers .= 'Cc:' . $php_email. "\r\n"; // Carbon copy to Sender
 		
