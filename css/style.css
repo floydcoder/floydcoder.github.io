@@ -1063,6 +1063,7 @@ h6 {
 .tokyo_tm_news ul li .details .title {
   margin-bottom: 10px;
   line-height: 1.4;
+  margin-top: 10px;
 }
 .tokyo_tm_news ul li .details .title a {
   text-decoration: none;
